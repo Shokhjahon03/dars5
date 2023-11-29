@@ -1,0 +1,24 @@
+.root_acount{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 40px;
+    margin-top: 150px;
+}
+.account_image{
+    max-width: 300px;
+    width: 100%;
+    height: 200px;
+}
+.items{
+    text-align: center;
+}
+.links{
+    max-width: 150px;
+    width: 100%;
+    background-color: #79b4ef;
+    color: #545410;
+    border: #0b0b0c 1px solid;
+    border-radius: 10px;
+}

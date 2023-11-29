@@ -1,0 +1,47 @@
+nav{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color:  #f4f8fc;
+
+
+}
+.navbar{
+    width: 100%;
+    height: 80px;
+    color: #0b0b0c;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.navbr_menu_item{
+    font-size: 25px;
+    color: #1616ea;
+    transition: 0.5s;
+}
+.navbr_menu_item:hover{
+    font-size: 30px;
+    color: #3685FB;
+    border-left: 2px solid #3685FB;
+    padding-left: 10px;
+    border-right: 2px solid #3685FB;
+    padding-right: 10px;
+}
+.linia{
+    display: inline-block;
+    max-width: 300px;
+    width: 100%;
+    height: 2px;
+    background-color: #3685FB;
+}
+.input{
+    max-width: 200px;
+    width: 100%;
+    height: 50px;
+    padding-left: 20px;
+    border: 3px solid green;
+    border-radius: 10px;
+    color: #0CA941;
+}
